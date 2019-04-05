@@ -41,3 +41,6 @@ plt.plot(history.history['loss'])
 
 # Display layer weights
 print(l0.get_weights())
+
+# Use the model to do predictions
+print(model.predict([22]))
